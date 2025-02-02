@@ -167,6 +167,4 @@ git push origin feature-name
 6.Open a Pull Request.
 
 
-## 📜 License
 
-This project is licensed under the MIT License 
