@@ -25,7 +25,7 @@ This is a Django-based FAQ management system that supports multi-language transl
 #### **Local Setup**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/faq_project.git
+   git clone https://github.com/Chetana1911/BharatFD_FAQs_Management_System.git
    cd faq_project
 
 
