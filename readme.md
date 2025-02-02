@@ -4,6 +4,13 @@
 This is a Django-based FAQ management system that supports multi-language translations, a WYSIWYG editor for answers, and a REST API for managing FAQs. It also includes caching with Redis for improved performance.
 
 ---
+## Features
+Multilingual Support: FAQ content is available in multiple languages (English, Hindi, Bengali, Telugu, Tamil, Malayalam, Kannada).
+WYSIWYG Editor: Rich text editor for FAQ answers (using django-ckeditor).
+Automatic Translation: Translates FAQ questions and answers using Google Translate API during object creation.
+Caching: Caching with Redis for faster API responses.
+REST API: Endpoints for managing and retrieving FAQs with language support.
+Django Admin: Admin panel to manage FAQs and their translations easily.
 
 ## Table of Contents
 1. [Installation](#installation)
