@@ -1,16 +1,16 @@
-# FAQ Management System
+## 🚀 FAQ Management System
 
 ## Description
 This is a Django-based FAQ management system that supports multi-language translations, a WYSIWYG editor for answers, and a REST API for managing FAQs. It also includes caching with Redis for improved performance.
 
 ---
 ## Features
-Multilingual Support: FAQ content is available in multiple languages (English, Hindi, Bengali, Telugu, Tamil, Malayalam, Kannada).
-WYSIWYG Editor: Rich text editor for FAQ answers (using django-ckeditor).
-Automatic Translation: Translates FAQ questions and answers using Google Translate API during object creation.
-Caching: Caching with Redis for faster API responses.
-REST API: Endpoints for managing and retrieving FAQs with language support.
-Django Admin: Admin panel to manage FAQs and their translations easily.
+1. Multilingual Support: FAQ content is available in multiple languages (English, Hindi, Bengali, Telugu, Tamil, Malayalam, Kannada).
+2. WYSIWYG Editor: Rich text editor for FAQ answers (using django-ckeditor).
+3. Automatic Translation: Translates FAQ questions and answers using Google Translate API during object creation.
+4. Caching: Caching with Redis for faster API responses.
+5. REST API: Endpoints for managing and retrieving FAQs with language support.
+6. Django Admin: Admin panel to manage FAQs and their translations easily.
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -20,7 +20,7 @@ Django Admin: Admin panel to manage FAQs and their translations easily.
 
 ---
 
-## Installation
+## 🛠️ Installation
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -76,7 +76,7 @@ Django Admin: Admin panel to manage FAQs and their translations easily.
 
 Now you can access the project at `http://localhost:8000`.
 
-## API Usage
+## 📡 API Usage
 
 The system exposes a **REST API** to manage and retrieve FAQs.
 
@@ -98,11 +98,11 @@ The system exposes a **REST API** to manage and retrieve FAQs.
     curl http://localhost:8000/api/faqs/?lang=bn
     ```
 
-### Caching
+## 🛠️ Caching
 
 The API uses **Redis** for caching FAQ translations. By default, the cache is stored in `redis://127.0.0.1:6379/1`.
 
-## Admin Panel
+## 🖥️ Admin Panel
 
 You can access the Django admin panel at `http://localhost:8000/admin/`.
 - Login with the superuser credentials you created earlier.
@@ -122,7 +122,7 @@ This project comes with a `Dockerfile` and `docker-compose.yml` file for contain
 
 2. The application will be available at `http://localhost:8000`.
 
-## Tests
+## 🧪 Tests
 
 To run tests, make sure to activate your virtual environment and run:
 
@@ -145,13 +145,28 @@ Follow conventional commit message practices:
 
 Ensure atomic commits with clear commit messages.
 
-Contributing
-	1.	Fork the repository.
-	2.	Create a new branch: git checkout -b feature-name.
-	3.	Make your changes and commit them: git commit -m 'feat: Add feature'.
-	4.	Push to your forked repository: git push origin feature-name.
-	5.	Create a pull request from your fork to this repository.
+## 🤝 Contributing
+## We welcome contributions! Follow these steps:
+1. Fork the Repository.
+2. Create a Branch:
+```bash
+git checkout -b feature-name
+```
+3.Your Changes.
+4.Commit Your Changes:
+```bash
+git commit -m "feat: Add feature"
+git commit -m "fix: Fix bug"
+git commit -m "docs: Update documentation"
+```
+5.Push to Your Fork:
+```bash
+git push origin feature-name
+```
 
-License
+6.Open a Pull Request.
+
+
+## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
