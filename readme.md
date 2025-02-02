@@ -34,8 +34,7 @@ This is a Django-based FAQ management system that supports multi-language transl
 
     ```bash
     python3 -m venv venv
-    source venv/bin/activate 
-     # On Windows use `venv\Scripts\activate`
+    source  `venv\Scripts\activate`
     ```
 
 3. Install the required dependencies:
